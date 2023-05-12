@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Ramakrishna</string>
+    <string name="tryAgain">Please check your internet connection and try again.</string>
+    <string name="noInternet">No Internet Connection</string>
+    <string name="try_Again">Try Again</string>
+
+    <string name="copyrightssymbol">©</string>
+    <string name="copyrights">Ramakrishna. All Rights Reserved</string>
+
+    <string name="submit">Submit</string>
+
+    <string name="logindbinvalid">Please enter Database Name</string>
+    <string name="loginusernameinvalid">Please enter username</string>
+    <string name="loginpwdinvalid">Please enter password</string>
+
+    <string name="Dashboard">Dashboard</string>
+    <string name="nolead">Lead not found</string>
+    <string name="myactivity">My Activity</string>
+    <string name="history">History</string>
+
+    <string name="todo">Todo</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+    <string name="caledar">Calendar</string>
+    <string name="completedactivity">Completed Activity</string>
+
+    <string name="wentwrong">Some thing went wrong.Please try again.</string>
+    <string name="loginpwderror">Given details are wrong. Please check details</string>
+    <string name="accesstokenexpire">Token seems to have expired or invalid. Please logout and login</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="tabone">Farm To</string>
+    <string name="tabtwo">Factory To</string>
+    <string name="tabthree">Home To</string>
+    <string name="tabhome">Home</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="full_name">Full Name</string>
+    <string name="sri_ramakrishna">Sri Ramakrishna</string>
+    <string name="multi_speciality_hospital">Multi-Speciality Hospital</string>
+
+</resources>

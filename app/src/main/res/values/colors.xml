@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="colorPrimary">#702c90</color>
+    <color name="colorPrimaryDark">#6f2e8d</color>
+    <color name="colorAccent">#6f2e8d</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="edittextunderline">#702c90</color>
+    <color name="edittextcolor">#666665</color>
+    <color name="greencolor">#6f2e8d</color>
+    <color name="lightgreencolor">#702c90</color>
+    <color name="colorgray">#969696</color>
+    <color name="bluelink">#032154</color>
+    <color name="tabtextcolor">#666665</color>
+    <color name="bottomtextcolor">#666666</color>
+    <color name="caldaycolor">#525252</color>
+    <color name="caldaybg">#EEF2F5</color>
+    <color name="textcolor">#666666</color>
+    <color name="headertextcolor">#2B2B2B</color>
+    <color name="notificationtitletextcolor">#8ABC3F</color>
+    <color name="notificationmsgtextcolor">#363636</color>
+    <color name="notificationtimetextcolor">#959595</color>
+    <color name="notificationreadbgcolor">#F7F7F7</color>
+    <color name="notificationreadtitletextcolor">#AFAFAF</color>
+    <color name="notificationreadmsgtextcolor">#C1C1C1</color>
+    <color name="dashboardtextcolor">#4E4E4E</color>
+    <color name="ordertextcolor">#4F4F4F</color>
+    <color name="ordertextcoloramoun">#272727</color>
+    //new design colors
+    <color name="pending_circle1">#E84444</color>
+    <color name="today_circle2">#3F78E5</color>
+    <color name="planned_circle3">#709E61</color>
+
+    <color name="sundaybgcolor">#999696</color>
+    <color name="white_smoke">#F5F5F5</color>
+    <color name="overdue">#DC3545</color>
+    <color name="future">#28A745</color>
+    <color name="today">#FFAC00</color>
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#3498db</color>
+    <color name="bg_screen2">#e74c3c</color>
+    <color name="bg_screen3">#9b59b6</color>
+    <color name="bg_screen4">#1abc9c</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#2980b9</color>
+    <color name="dot_dark_screen2">#c0392b</color>
+    <color name="dot_dark_screen3">#8e44ad</color>
+    <color name="dot_dark_screen4">#27ae60</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#6a89cc</color>
+    <color name="dot_light_screen2">#e55039</color>
+    <color name="dot_light_screen3">#82ccdd</color>
+    <color name="dot_light_screen4">#38ada9</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+
+    <!-- Calendar color -->
+    <color name="mti_default_primary">#702c90</color>
+    <color name="mti_default_primary_dark">#6f2e8d</color>
+    <color name="mti_bg_timeline">#FFFFFF</color>
+    <color name="mti_lbl_tab_selected">#FFFFFF</color>
+    <color name="mti_lbl_tab_before_selection">#6f2e8d</color>
+    <color name="mti_lbl_day">#525252</color>
+    <color name="mti_lbl_date">#000000</color>
+    <color name="mti_lbl_date_selected">#FFFFFF</color>
+    <color name="mti_bg_lbl_date_selected_color">#702c90</color>
+    <color name="mti_ring_lbl_date_color">#d2f6eb</color>
+    <color name="mti_bg_lbl_today">#d6d6d6</color>
+    <color name="mti_lbl_label">#9b9b9b</color>
+    <color name="gold_dark">#946335</color>
+    <color name="gold_med">#ab804b</color>
+    <color name="gold">#cea774</color>
+    <color name="gold_light">#edd3b2</color>
+
+</resources>

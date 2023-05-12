@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_55sdp"
+    android:background="@color/colorPrimary"
+    android:orientation="horizontal"
+    android:weightSum="5.0">
+
+
+    <LinearLayout
+        android:id="@+id/mLLHome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="2.0">
+
+        <ImageView
+            android:layout_marginTop="@dimen/_8sdp"
+            android:id="@+id/b_home"
+            android:layout_width="@dimen/bottomimagewidth"
+            android:layout_height="@dimen/bottomimageheight"
+            android:src="@drawable/c_home" />
+
+        <TextView
+            android:id="@+id/mtxtHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mLLBasket"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="2.0">
+
+        <ImageView
+            android:layout_marginTop="@dimen/_8sdp"
+            android:id="@+id/mCalender"
+            android:layout_width="@dimen/bottomimagewidth"
+            android:layout_height="@dimen/bottomimageheight"
+            android:src="@drawable/calender" />
+
+        <TextView
+            android:id="@+id/b_calender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calender"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mLLSubscription"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.95"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="2.0">
+
+        <ImageView
+            android:layout_marginTop="@dimen/_8sdp"
+            android:id="@+id/mIVSubscription"
+            android:layout_width="@dimen/bottomimagewidth"
+            android:layout_height="@dimen/bottomimageheight"
+            android:src="@drawable/todo" />
+
+        <TextView
+            android:id="@+id/mtxtSubscription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Todo"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mLLWallet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.05"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="2.0">
+
+        <ImageView
+            android:layout_marginTop="@dimen/_8sdp"
+            android:id="@+id/mIVWallet"
+            android:layout_width="@dimen/bottomimagewidth"
+            android:layout_height="@dimen/bottomimageheight"
+            android:src="@drawable/complete_activity" />
+
+        <TextView
+            android:id="@+id/mtxtWallet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Activities"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mLLMyOrder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="2.0">
+
+        <ImageView
+            android:layout_marginTop="@dimen/_8sdp"
+            android:id="@+id/mIVMyOrder"
+            android:layout_width="@dimen/bottomimagewidth"
+            android:layout_height="@dimen/bottomimageheight"
+            android:src="@drawable/profile" />
+
+        <TextView
+            android:id="@+id/mtxtMyOrder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+
+</LinearLayout>

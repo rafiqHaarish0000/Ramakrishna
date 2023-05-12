@@ -1,0 +1,74 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="edittextsize">@dimen/_16sdp</dimen>
+
+
+    <dimen name="bottomimagewidth">@dimen/_25sdp</dimen>
+    <dimen name="bottomimageheight">@dimen/_25sdp</dimen>
+
+    <dimen name="smilyiconsize">@dimen/_33sdp</dimen>
+
+    <dimen name="topimagewidth">@dimen/_25sdp</dimen>
+    <dimen name="topimageheight">@dimen/_25sdp</dimen>
+
+    <dimen name="toptextsize">@dimen/_15sdp</dimen>
+
+    <dimen name="dots_height">30dp</dimen>
+    <dimen name="dots_margin_bottom">20dp</dimen>
+    <dimen name="img_width_height">120dp</dimen>
+    <dimen name="slide_title">30dp</dimen>
+    <dimen name="slide_desc">16dp</dimen>
+    <dimen name="desc_padding">40dp</dimen>
+
+    <dimen name="topcartimagewidth">@dimen/_30sdp</dimen>
+    <dimen name="topcartimageheight">@dimen/_30sdp</dimen>
+
+
+    <!-- Month -->
+    <dimen name="mti_month_width">68dp</dimen>
+    <dimen name="mti_month_height">48dp</dimen>
+    <dimen name="mti_month_lbl_padding_horizontal">8dp</dimen>
+    <dimen name="mti_month_lbl_padding_vertical">5dp</dimen>
+    <dimen name="mti_month_lbl_text">14sp</dimen>
+
+    <!-- Timeline -->
+    <dimen name="mti_timeline_width">50dp</dimen>
+    <dimen name="mti_timeline_height">100dp</dimen>
+    <dimen name="mti_timeline_lbl_day_text">12dp</dimen>
+    <dimen name="mti_timeline_lbl_date_text">14dp</dimen>
+    <dimen name="mti_timeline_lbl_value">12dp</dimen>
+
+
+    <dimen name="textsizemicro">@dimen/_9sdp</dimen>
+    <dimen name="textsizemin">@dimen/_10sdp</dimen>
+    <dimen name="textsizesmall">@dimen/_12sdp</dimen>
+    <dimen name="textsizemedium">@dimen/_14sdp</dimen>
+    <dimen name="textsizelearge">@dimen/_16sdp</dimen>
+    <dimen name="textsizeexlearge">@dimen/_18sdp</dimen>
+
+
+    <!-- Default configuration for some common confetti animations -->
+    <dimen name="default_confetti_size">6dp</dimen>
+    <dimen name="big_confetti_size">36dp</dimen>
+
+    <dimen name="default_velocity_slow">50dp</dimen>
+    <dimen name="default_velocity_normal">100dp</dimen>
+    <dimen name="default_velocity_fast">200dp</dimen>
+
+
+    <dimen name="default_velocity_slow1">100dp</dimen>
+    <dimen name="default_velocity_normal1">200dp</dimen>
+    <dimen name="default_velocity_fast1">400dp</dimen>
+
+
+    <dimen name="default_explosion_radius">100dp</dimen>
+
+    <!-- Default elevation for the confetti -->
+    <dimen name="confetti_default_elevation">9999dp</dimen>
+
+</resources>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+    </data>
+    <androidx.drawerlayout.widget.DrawerLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/mNavicationDrawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:openDrawer="start">
+
+        <include
+            layout="@layout/app_bar_help__menu_screen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+        <LinearLayout
+            android:id="@+id/left_drawer"
+            android:layout_height="match_parent"
+            android:layout_width="@dimen/_250sdp"
+            android:layout_gravity="start"
+            android:orientation="vertical"
+
+            android:background="#eee">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_200sdp"
+                android:gravity="center"
+                android:background="@color/colorAccent"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_20sdp">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:clickable="true"
+                        app:civ_border_width="@dimen/_5sdp"
+                        app:civ_border_color="@color/colorPrimaryDark"
+                        android:id="@+id/profile"
+                        android:layout_width="@dimen/_85sdp"
+                        android:layout_height="@dimen/_85sdp"
+                        android:elevation="5dp"
+                        android:layout_gravity="center"
+                        android:scaleType="centerCrop" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/mSideUserImage"
+                        android:clickable="true"
+                        app:civ_border_width="3dp"
+                        app:civ_border_color="#FFFFFFFF"
+                        android:layout_width="@dimen/_80sdp"
+                        android:layout_height="@dimen/_80sdp"
+                        android:layout_gravity="center"
+                        android:elevation="5dp"
+                        android:src="@drawable/ic_avatar"
+                        android:scaleType="centerCrop"/>
+
+                </FrameLayout>
+
+
+                <TextView
+                    android:id="@+id/mDashboardUserName"
+                    style="@style/OpenSans_Regular"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:textSize="@dimen/_14sdp"
+                    android:text="saffsa" />
+
+                <TextView
+                    android:id="@+id/mDashboardDestination"
+                    style="@style/OpenSans_Regular"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:textSize="@dimen/_14sdp"
+                    android:text="safaf" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="2.0"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3">
+
+                    <ListView
+                        android:id="@+id/mSidemenulist"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_alignParentBottom="true"
+                        android:clipToPadding="true"
+                        android:divider="@null"
+                        android:dividerHeight="0dp"
+                        android:drawSelectorOnTop="false"
+                        android:scrollbars="none"
+                        android:descendantFocusability="blocksDescendants"
+                        android:layout_marginBottom="@dimen/_1sdp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.7"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/_30sdp"
+                    android:paddingRight="@dimen/_30sdp">
+
+                    <Button
+                        android:id="@+id/mlogout"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_35sdp"
+                        style="@style/OpenSans_Semibold"
+                        android:textColor="@color/white"
+                        android:text="@string/logout"
+                        android:textAllCaps="false"
+                        android:background="@drawable/border_edittext"
+                        android:backgroundTint="@color/colorAccent">
+
+                    </Button>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+</layout>

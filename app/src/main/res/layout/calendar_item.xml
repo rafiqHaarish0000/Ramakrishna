@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:id="@+id/mCalDateClick"
+    android:orientation="vertical"
+    android:padding="2dip" >
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/date"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="wrap_content"
+        android:text="34"
+        style="@style/OpenSans_Regular"
+        android:gravity="center"
+        android:textSize="@dimen/_14sdp">
+    </TextView>
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/leadscount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:padding="@dimen/_2sdp"
+        android:background="@drawable/absent"
+        android:layout_marginTop="@dimen/_5sdp"
+        style="@style/OpenSans_Regular"
+        android:gravity="center"
+        android:visibility="invisible"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_10sdp">
+    </TextView>
+
+    <ImageView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/date_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/date"
+        android:visibility="gone" />
+
+</LinearLayout>
